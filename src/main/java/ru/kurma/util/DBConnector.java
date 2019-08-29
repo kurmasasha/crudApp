@@ -19,7 +19,7 @@ public class DBConnector {
     }
 
     public static DBConnector getInstance() {
-        return instance == null ? new DBConnector() : instance;
+        return instance == null ? instance = new DBConnector() : instance;
     }
 
     public Connection getConnection() {
