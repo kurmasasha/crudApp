@@ -53,7 +53,7 @@ public class UserDaoImplJDBC implements UserDao {
     }
 
     @Override
-    public void createNewUser(String firstName, String lastName, String login, String password, String role) throws Exception {
+    public void createNewUser(String firstName, String lastName, String login, String password, String role) {
         try {
             PreparedStatement preparedStatement = DBConnector.getInstance().getConnection().prepareStatement
                     ("INSERT INTO testdb.test.users(firstname, lastname, login, password, role) VALUES (?,?,?,?,?)");

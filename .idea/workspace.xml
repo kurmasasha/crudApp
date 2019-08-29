@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6052eeff-f2f6-4c28-9af0-19ae9bc571ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kurma/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kurma/dao/UserDaoImplJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kurma/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kurma/util/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kurma/util/DBConnector.java" afterDir="false" />
-    </list>
+    <list default="true" id="6052eeff-f2f6-4c28-9af0-19ae9bc571ce" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567078347072</updated>
-      <workItem from="1567078350953" duration="6116000" />
+      <workItem from="1567078350953" duration="6472000" />
     </task>
     <task id="LOCAL-00001" summary="Create Project">
       <created>1567078680559</created>
@@ -185,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567079975028</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix DBConnector, add UserDao, UserDaoImplJDBC, UserService">
+      <created>1567088778487</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567088778487</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +193,7 @@
     <MESSAGE value="Create Project" />
     <MESSAGE value="Create User" />
     <MESSAGE value="Create DBConnector" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create DBConnector" />
+    <MESSAGE value="Fix DBConnector, add UserDao, UserDaoImplJDBC, UserService" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix DBConnector, add UserDao, UserDaoImplJDBC, UserService" />
   </component>
 </project>
