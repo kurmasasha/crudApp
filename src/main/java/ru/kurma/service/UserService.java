@@ -28,5 +28,18 @@ public class UserService {
         return dao.findUserByLogin(login);
     }
 
+    public void addNewUser(String firstName,
+                           String lastName,
+                           String login,
+                           String password) {
+        dao.createNewUser(firstName, lastName, login, password);
+    }
 
+    public void updateUser(User user) {
+        dao.updateUser(user);
+    }
+
+    public void deleteUser(User user) {
+        dao.deleteUser(user);
+    }
 }

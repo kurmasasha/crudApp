@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6052eeff-f2f6-4c28-9af0-19ae9bc571ce" name="Default Changelist" comment="" />
+    <list default="true" id="6052eeff-f2f6-4c28-9af0-19ae9bc571ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kurma/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kurma/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kurma/dao/UserDaoImplJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kurma/dao/UserDaoImplJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kurma/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kurma/service/UserService.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,16 +131,6 @@
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1d737103" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1d737103" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@403a721a" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@1d737103" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3c5c9187" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
           </expand>
           <select />
         </treeState>
@@ -153,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567078347072</updated>
-      <workItem from="1567078350953" duration="6472000" />
+      <workItem from="1567078350953" duration="7044000" />
     </task>
     <task id="LOCAL-00001" summary="Create Project">
       <created>1567078680559</created>
@@ -183,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567088778487</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix DBConnector, add UserDao, UserDaoImplJDBC, UserService">
+      <created>1567088896640</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1567088896640</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

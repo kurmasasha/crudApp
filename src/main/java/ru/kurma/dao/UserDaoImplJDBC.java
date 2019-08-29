@@ -53,7 +53,7 @@ public class UserDaoImplJDBC implements UserDao {
     }
 
     @Override
-    public void createNewUser(String firstName, String lastName, String login, String password, String role) {
+    public void createNewUser(String firstName, String lastName, String login, String password) {
         try {
             PreparedStatement preparedStatement = DBConnector.getInstance().getConnection().prepareStatement
                     ("INSERT INTO testdb.test.users(firstname, lastname, login, password, role) VALUES (?,?,?,?,?)");
@@ -61,7 +61,6 @@ public class UserDaoImplJDBC implements UserDao {
             preparedStatement.setString(2, lastName);
             preparedStatement.setString(3, login);
             preparedStatement.setString(4, password);
-            preparedStatement.setString(5, role);
             preparedStatement.execute();
             preparedStatement.close();
         } catch (SQLException e) {
@@ -84,10 +83,10 @@ public class UserDaoImplJDBC implements UserDao {
     }
 
     @Override
-    public void deleteUser(Integer id) {
+    public void deleteUser(User user) {
         try {
             PreparedStatement preparedStatement = DBConnector.getInstance().getConnection().prepareStatement("DELETE FROM testdb.test.users WHERE id = ?");
-            preparedStatement.setInt(1, id);
+            preparedStatement.setInt(1, user.getId());
             preparedStatement.executeUpdate();
             preparedStatement.close();
         } catch (SQLException e) {
